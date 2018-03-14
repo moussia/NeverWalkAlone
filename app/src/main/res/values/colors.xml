@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f55d4b</color>
+    <color name="colorPrimaryDark">#e14a38</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="bg_signup">#F55D4B</color>
+    <color name="bg_login">#e14a38</color>
+    <color name="bg_register">#e14a38</color>
+    <color name="bg_main">#e14a38</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#212121</color>
+    <color name="divider">#B6B6B6</color>
+
+
+    <color name="blue">#303F9F</color>
+    <color name="green_teal">#009688</color>
+    <color name="red">#F44336</color>
+    <color name="lime">#CDDC39</color>
+
+    <color name="green">#4CAF50</color>
+    <color name="purple">#673AB7</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="orange">#e95609</color>
+
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.walkcompany.neverwalkalone.NewPostActivity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_submit_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_navigation_check_24"
+        app:backgroundTint="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/field_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Message..."
+        android:backgroundTint="@color/blue"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:scrollHorizontally="false"
+
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <Spinner
+        android:id="@+id/spinner_categorie"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:layout_width="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"></Spinner>
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerVille"
+        android:layout_marginTop="42dp"
+        android:layout_width="300dp"
+        android:layout_below="@+id/imageViewSousCat"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/loc"
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_below="@+id/imageViewSousCat"
+        android:layout_alignLeft="@+id/imageViewSousCat"
+        android:layout_alignStart="@+id/imageViewSousCat"
+        android:layout_marginTop="28dp" />
+
+    <ImageView
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/spinner_categorie"
+        android:layout_toStartOf="@+id/spinner_categorie"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="25dp" />
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerSouscateg"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/sport"
+        android:id="@+id/imageViewSousCat"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_marginTop="20dp" />
+
+
+</RelativeLayout>

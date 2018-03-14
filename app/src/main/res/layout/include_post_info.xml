@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/post_lieu_photo"
+        android:layout_width="38dp"
+        android:layout_height="29dp"
+        android:src="@drawable/loc"
+        android:layout_weight="0.45" />
+
+    <TextView
+        android:id="@+id/post_lieu"
+        style="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        tools:text="Lieu" />
+
+    <TextView
+        android:id="@+id/post_v"
+        style="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:layout_weight="0.45"
+        android:text="       " />
+
+    <TextView
+        android:id="@+id/post_date"
+        style="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        tools:text="Date"
+        android:layout_weight="0.45" />
+
+</LinearLayout>

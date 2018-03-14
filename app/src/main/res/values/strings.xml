@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Never walk alone</string>
+    <string name="action_sign_in_short">S\'enregister</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Mot de passe trop court, entrez au moins 6 caractères</string>
+    <string name="auth_failed">Authentication échouée, vérifiez votre email ou mot de passe</string>
+    <string name="change_email">Modifier d\'email</string>
+    <string name="change_password">Modifier mot de passe</string>
+    <string name="send_password_reset_email">Email de récupération de mot de passe envoyé</string>
+    <string name="remove_user">Supprimer utilisateur</string>
+    <string name="new_pass">Nouveau mot de passe</string>
+    <string name="title_activity_profile">Profil uitilisateur</string>
+    <string name="title_activity_login">Connexion</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mot de passe</string>
+    <string name="hint_name">Nom</string>
+    <string name="btn_login">Allons faire un tours !</string>
+    <string name="btn_link_to_register">Pas de compte ? allons vous en crée un !</string>
+    <string name="btn_link_to_login">J\'ai déja un compte. Connectez vous !</string>
+    <string name="title_activity_reset_password">Recuperation de mot de passe</string>
+    <string name="btn_forgot_password">J\'ai oublié mon mot de passe !</string>
+    <string name="btn_reset_password">Recuperer</string>
+    <string name="btn_back"><![CDATA[<< Retour]]></string>
+    <string name="hint_new_email">Nouveau email</string>
+    <string name="btn_change">Modifiez</string>
+    <string name="btn_send">Envoyer</string>
+    <string name="btn_remove">Supprimer</string>
+    <string name="btn_sign_out">Deconnexion</string>
+    <string name="lbl_forgot_password">Recuperation de mot de passe</string>
+    <string name="forgot_password_msg">Entrez votre email pour que l\'on puisse vous envoyer l\'email de recuperation de mot de passe.</string>
+
+    <string name="action_settings">Parametre</string>
+    <string name="menu_login">Connexion</string>
+    <string name="menu_logout">Deconnexion</string>
+    <string name="login_label">Connexion</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Mot de passe</string>
+    <string name="send_text">Envoyer</string>
+    <string name="title_sign_in">Bienvenue</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="heading_recent">Fil d\'actualités</string>
+    <string name="heading_my_posts">Mes posts</string>
+    <string name="title_activity_test">testActivity</string>
+
+    <string name="sports">sports</string>
+    <string name="divertissement">divertissement</string>
+    <string name="technologie">technologie</string>
+    <string name="international">international</string>
+    <string name="title_activity_verification">VerificationActivity</string>
+
+    <string-array name="spinnerItem">
+        <item>CATEGORIE</item>
+        <item>Sport</item>
+        <item>Soirée</item>
+        <item>Repas</item>
+        <item>Trajet</item>
+    </string-array>
+    <string-array name="spinnerItem2">
+        <item>SPORT</item>
+        <item>Football</item>
+        <item>Basketball</item>
+        <item>Handball</item>
+        <item>Athlétisme</item>
+        <item>Volleyball</item>
+    </string-array>
+    <string-array name="spinnerItem3">
+        <item>LIEU</item>
+        <item>Paris 15</item>
+        <item>Paris 16</item>
+        <item>Paris 17</item>
+        <item>Paris 18</item>
+        <item>Paris 19</item>
+        <item>Paris 20</item>
+    </string-array>
+
+</resources>

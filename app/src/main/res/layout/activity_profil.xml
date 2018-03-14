@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <View
+        android:id="@+id/SplitLine"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/parametre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:text="Mes Amis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/listeAmis"
+        android:textSize="30sp"
+        android:layout_below="@+id/SplitLine"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/listeAmis"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/liste" />
+
+    <ImageView
+
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/ic_action_account_circle_40"
+        android:id="@+id/photo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Prenom"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Prenom"
+        android:layout_above="@+id/SplitLine"
+        android:layout_toRightOf="@+id/Nom"
+        android:layout_toEndOf="@+id/Nom"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_preferences"
+        android:id="@+id/parametre"
+        android:layout_marginTop="158dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/Prenom"
+        android:layout_toEndOf="@+id/Prenom" />
+
+    <TextView
+        android:text="Nom"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Nom"
+        android:layout_above="@+id/SplitLine"
+        android:layout_alignLeft="@+id/photo"
+        android:layout_alignStart="@+id/photo" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "190547358189",
+    "firebase_url": "https://pjs4-9f90b.firebaseio.com",
+    "project_id": "pjs4-9f90b",
+    "storage_bucket": "pjs4-9f90b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190547358189:android:a64ae7595fce76ac",
+        "android_client_info": {
+          "package_name": "com.walkcompany.neverwalkalone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190547358189-7vifq7c3o2q6lm4s8jni81t3bo0t7sfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlSxeGmNOiRxa5TnfH9KHnxgOVR1KT1Hc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
